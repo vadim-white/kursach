@@ -1,0 +1,9 @@
+.places__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-auto-rows: minmax(350px, auto); /* Минимальная высота карточки */
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

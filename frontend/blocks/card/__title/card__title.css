@@ -1,0 +1,9 @@
+.card__title {
+  max-width: calc(100% - 30px); /* Оставляем место для кнопки лайка */
+  font-size: 24px;
+  line-height: 29px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 0 10px 0;
+}

@@ -1,0 +1,18 @@
+.card__like-button {
+  width: 21px;
+  height: 18px;
+  background: transparent url('../../../images/like-inactive.svg') no-repeat;
+  background-size: 21px 18px;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: absolute; /* Позиционируем абсолютно */
+  right: 20px; /* Отступ справа */
+  top: 25px; /* Выравниваем по верхнему краю описания */
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.card__like-button:hover {
+  opacity: 0.6;
+}

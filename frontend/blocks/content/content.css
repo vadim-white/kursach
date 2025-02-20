@@ -1,0 +1,6 @@
+.card__content {
+  flex: 1; /* Занимает все доступное пространство */
+  overflow-y: auto;
+  margin-bottom: 5px;
+  padding-right: 5px;
+}
